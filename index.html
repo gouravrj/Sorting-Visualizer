@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="sorting.css">
+    <title>
+        Sorting Visualizer
+    </title>
+    <link rel="icon" href="favicon.png" />
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <button id="newarr">New array</button>
+    <span style="font-size: large; color: white;">
+        Size:<input id="sizer" type="range" min=20 max=100 step=1 value=60>
+    </span>
+    <span style="font-size: large; color: white;">
+        Speed:<input id="speed" type="range" min=10 max=240 step=1 value=100>
+    </span>
+    <button id="bubble" class="yo">Bubble Sort</button>
+    <button id="selection" class="yo">Selection Sort</button>
+    <button id="insertion" class = "yo">Insertion Sort</button>
+    <button class="not_working">Merge Sort</button>
+    <button class="not_working">Quick Sort</button>
+
+    <div id="bar"></div>
+
+
+    <script src="scripts/sorting.js"></script>
+    <script src="scripts/bubble.js"></script>
+    <script src="scripts/selection.js"></script>
+    <script src="scripts/insertion.js"></script>
+
+</body>
+
+</html>
