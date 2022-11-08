@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color: #171515;
-}
+} */
 
 h1{
     color: aqua;
@@ -15,9 +15,9 @@ button{
     padding: 4px 6px 4px 6px;
 }
 
-button.yo:hover{
+/* button.yo:hover{
     background-color: #00FF00;
-}
+} */
 .not_working{
     background-color: grey;
 }
@@ -37,12 +37,14 @@ button.yo:hover{
     height: 400px;
     flex-direction: row;
     padding: 20px 30px 0px 10px;
+
 }
   
 .baritem {
-    background: yellow;
-    border: 1.25px solid blue;
+    background: pink;
+    border: 1.25px solid black;
     width: 0.75%;
+    border-radius: 5px;
   }
 
 a{
